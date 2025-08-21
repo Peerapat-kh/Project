@@ -8,11 +8,20 @@
 		<title>Astro Basics</title>
 	</head>
 	<body>
+		<header class="bg-gray-800 text-white p-4">
+			<h1 class="text-2xl font-bold">Astro Basics</h1>
+			<nav>
+				<ul class="flex space-x-4">
+					<li><a href="/" class="text-blue-300 hover:underline">Home</a></li>
+					<li><a href="/about" class="text-blue-300 hover:underline">About</a></li>
+				</ul>
+			</nav>
 		<slot />
 	</body>
 </html>
 
 <style>
+
 	html,
 	body {
 		margin: 0;
